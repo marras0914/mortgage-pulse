@@ -1,0 +1,173 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+.has-post-thumbnail .entry-meta .cat-links {
+	background: #50ad3c;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-family: 'Gotham Book', sans-serif;
+	color: #156484;
+}
+
+h2 {
+	font-size: 2rem;
+	color: #a1a1a1;
+	font-family: 'Droid serif', serif;
+}
+
+.has-post-thumbnail.is-singular:not(.home):not(.single-format-image) .entry-header {
+	padding: 0 6rem 13rem;
+}
+
+.site-header {
+	background-color: rgba(36,38,41,0.01);
+}
+
+p {
+	font-size: 12px px;
+	font-family: 'Gotham Book', sans-serif;
+}
+
+.home-buttons {
+	background-color: rgba(0,0,0,.15);
+	display: inline-block;
+	color: #fff;
+	font-family: 'Gotham Book', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 14px 36px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-top: 8px;
+}
+
+.home-buttons:hover {
+	background-color: rgba(0,0,0,.25);
+	text-decoration: none;
+}
+
+.posts .entry-title {
+	color: #686868;
+	font-size: 2.2rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.posts .entry-title a {
+	color: #686868;
+}
+
+.link-more a {
+	background-color: #1564a4;
+	margin-bottom: 2px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.link-more a:hover {
+	color: #ffffff;
+	background-color: #075696 !important;
+}
+
+/*custom after the fact*/
+.notes-container{
+	position: relative;
+}
+
+.notes{
+	display: inline-block;
+	width: 320px;
+	margin-bottom: 20px;
+}
+
+.house-note{
+	border-right: 1px solid #686868;
+}
+.company-note{
+	width: 318px;
+}
+.key-note{
+	border-left: 1px solid #686868;
+}
+
+.home-alternate-container{
+	width:100%;
+	z-index:1;
+	background-color:#ddd;
+	background: url(http://blog.pacificunionfinancial.com/wp-content/uploads/2016/03/BlogSlide2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align:center;
+	margin-top:-40px;
+	padding-bottom: 80px;
+}
+
+.cut-out-arrow{
+	float:none;
+	background: 
+		url(http://blog.pacificunionfinancial.com/wp-content/uploads/2016/03/arrowcutout.png)
+		no-repeat 
+		top;
+	height:17px;
+}
+
+
+@media only screen and (max-width: 425px) {
+	.notes{
+		width: 86%;
+	}
+	.cut-out-arrow{
+		background-color: #f1f2f2;
+	}
+	.house-note, .key-note{
+		border: none;
+	}
+	.menu-toggle {
+		padding: 1em 1.5em;
+	    position: fixed;
+	    right: 2rem;
+	    text-transform: uppercase;
+	    top: 1.5rem;
+	    z-index: 10;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.notes{
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 960px){
+	#site-navigation{
+		/*transition: opacity 0.3s ease;
+		opacity: 0;*/
+		display: block;
+	    float: none;
+	    text-align: left;
+	    width: 100%;
+	    background-color: rgba(0,0,0,.6);
+	    padding: 0 5%;
+	    position: fixed;
+	    left: 0;
+	    top: 0;
+	}
+}
+
+@media only screen and (max-width: 1134px) {
+	.cut-out-arrow{
+		background-color: #f1f2f2;
+	}
+	.house-note, .key-note{
+		border: none;
+	}
+}

@@ -48,7 +48,13 @@ Template Name: Home Alternate
 
 </div>
 	
-
+<style>
+@media only screen and (max-width: 960px){
+	#site-navigation ul a {
+	    color: #ffffff;
+	}
+}
+</style>
 
 <?php get_footer(); ?>
 

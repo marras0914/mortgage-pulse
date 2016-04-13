@@ -143,7 +143,7 @@ p {
 
 @media only screen and (max-width: 768px){
 	.notes{
-		width: 70%;
+		width: 85%;
 	}
 }
 
@@ -164,6 +164,9 @@ p {
 }
 
 @media only screen and (max-width: 1134px) {
+	.notes{
+		margin-bottom: 4px;
+	}
 	.cut-out-arrow{
 		background-color: #f1f2f2;
 	}
